@@ -24,6 +24,7 @@
 		1A6BB02C2B0023D400230826 /* ListingAmenitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6BB02B2B0023D400230826 /* ListingAmenitiesView.swift */; };
 		1A6BB02E2B0025B700230826 /* PlaceOnMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6BB02D2B0025B700230826 /* PlaceOnMapView.swift */; };
 		1A6BB0302B002C6300230826 /* ReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6BB02F2B002C6300230826 /* ReservationView.swift */; };
+		1AAF23602B00627300E0A520 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAF235F2B00627300E0A520 /* DestinationSearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		1A6BB02B2B0023D400230826 /* ListingAmenitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingAmenitiesView.swift; sourceTree = "<group>"; };
 		1A6BB02D2B0025B700230826 /* PlaceOnMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOnMapView.swift; sourceTree = "<group>"; };
 		1A6BB02F2B002C6300230826 /* ReservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationView.swift; sourceTree = "<group>"; };
+		1AAF235F2B00627300E0A520 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			children = (
 				1A6BB0162AFF0D1400230826 /* ExploreView.swift */,
 				1A6BB01A2AFFF2B300230826 /* SearchAndFilterBar.swift */,
+				1AAF235F2B00627300E0A520 /* DestinationSearchView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				1A6BB02E2B0025B700230826 /* PlaceOnMapView.swift in Sources */,
 				1A6BB0302B002C6300230826 /* ReservationView.swift in Sources */,
 				1A6BB0222AFFFF2800230826 /* RatingView.swift in Sources */,
+				1AAF23602B00627300E0A520 /* DestinationSearchView.swift in Sources */,
 				1A6BB0172AFF0D1400230826 /* ExploreView.swift in Sources */,
 				1A6BB02A2B00213600230826 /* BedroomsView.swift in Sources */,
 				1A6BB01B2AFFF2B300230826 /* SearchAndFilterBar.swift in Sources */,
