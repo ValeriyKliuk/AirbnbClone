@@ -30,6 +30,7 @@
 		1AAF23602B00627300E0A520 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAF235F2B00627300E0A520 /* DestinationSearchView.swift */; };
 		1ABD43782B03F38D003B721E /* PinkButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABD43772B03F38D003B721E /* PinkButtonView.swift */; };
 		1ABD437A2B03F7E4003B721E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABD43792B03F7E4003B721E /* MainTabView.swift */; };
+		1ABDE5842B0416C000611766 /* Listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABDE5832B0416C000611766 /* Listing.swift */; };
 		1AD604E02B01AF580009B28E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD604DF2B01AF580009B28E /* ProfileView.swift */; };
 		1AE4311C2B007FF100A68488 /* CollapsibleDestinationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE4311B2B007FF100A68488 /* CollapsibleDestinationViewModifier.swift */; };
 		1AE4311E2B0080C600A68488 /* CollapsedPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE4311D2B0080C600A68488 /* CollapsedPickerView.swift */; };
@@ -60,6 +61,7 @@
 		1AAF235F2B00627300E0A520 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 		1ABD43772B03F38D003B721E /* PinkButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkButtonView.swift; sourceTree = "<group>"; };
 		1ABD43792B03F7E4003B721E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		1ABDE5832B0416C000611766 /* Listing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
 		1AD604DF2B01AF580009B28E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		1AE4311B2B007FF100A68488 /* CollapsibleDestinationViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleDestinationViewModifier.swift; sourceTree = "<group>"; };
 		1AE4311D2B0080C600A68488 /* CollapsedPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsedPickerView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		1A3532A12AFF08FD00E97296 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1ABDE5832B0416C000611766 /* Listing.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				1AAF23602B00627300E0A520 /* DestinationSearchView.swift in Sources */,
 				1AA9605B2B03E3A200C6645F /* ProfileOptionRowView.swift in Sources */,
 				1A6BB0172AFF0D1400230826 /* ExploreView.swift in Sources */,
+				1ABDE5842B0416C000611766 /* Listing.swift in Sources */,
 				1A6BB02A2B00213600230826 /* BedroomsView.swift in Sources */,
 				1A6BB01B2AFFF2B300230826 /* SearchAndFilterBar.swift in Sources */,
 				1A6BB01D2AFFFB1D00230826 /* ListingDetailView.swift in Sources */,
