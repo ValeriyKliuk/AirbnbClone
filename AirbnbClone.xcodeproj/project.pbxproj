@@ -29,6 +29,7 @@
 		1AA9605D2B03E6B100C6645F /* WishlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA9605C2B03E6B100C6645F /* WishlistView.swift */; };
 		1AAF23602B00627300E0A520 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAF235F2B00627300E0A520 /* DestinationSearchView.swift */; };
 		1ABD43782B03F38D003B721E /* PinkButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABD43772B03F38D003B721E /* PinkButtonView.swift */; };
+		1ABD437A2B03F7E4003B721E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABD43792B03F7E4003B721E /* MainTabView.swift */; };
 		1AD604E02B01AF580009B28E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD604DF2B01AF580009B28E /* ProfileView.swift */; };
 		1AE4311C2B007FF100A68488 /* CollapsibleDestinationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE4311B2B007FF100A68488 /* CollapsibleDestinationViewModifier.swift */; };
 		1AE4311E2B0080C600A68488 /* CollapsedPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE4311D2B0080C600A68488 /* CollapsedPickerView.swift */; };
@@ -58,6 +59,7 @@
 		1AA9605C2B03E6B100C6645F /* WishlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistView.swift; sourceTree = "<group>"; };
 		1AAF235F2B00627300E0A520 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 		1ABD43772B03F38D003B721E /* PinkButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkButtonView.swift; sourceTree = "<group>"; };
+		1ABD43792B03F7E4003B721E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		1AD604DF2B01AF580009B28E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		1AE4311B2B007FF100A68488 /* CollapsibleDestinationViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleDestinationViewModifier.swift; sourceTree = "<group>"; };
 		1AE4311D2B0080C600A68488 /* CollapsedPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsedPickerView.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 		1A6BB0132AFF0BFB00230826 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				1ABD43792B03F7E4003B721E /* MainTabView.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				1AE4311C2B007FF100A68488 /* CollapsibleDestinationViewModifier.swift in Sources */,
 				1ABD43782B03F38D003B721E /* PinkButtonView.swift in Sources */,
 				1A6BB02E2B0025B700230826 /* PlaceOnMapView.swift in Sources */,
+				1ABD437A2B03F7E4003B721E /* MainTabView.swift in Sources */,
 				1A6BB0302B002C6300230826 /* ReservationView.swift in Sources */,
 				1A6BB0222AFFFF2800230826 /* RatingView.swift in Sources */,
 				1AAF23602B00627300E0A520 /* DestinationSearchView.swift in Sources */,
