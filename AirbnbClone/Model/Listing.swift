@@ -19,6 +19,7 @@ struct Listing: Identifiable, Codable {
     var pricePerNight: Double
     let latitude: Double
     let longitude: Double
+    var imageUrls: [String]
     let address: String
     let city: String
     let state: String
@@ -122,7 +123,7 @@ enum ListingAmenities: Int, Codable, Identifiable, Hashable {
 
 
 enum ListingType: Int, Codable, Identifiable, Hashable {
-    case appartment
+    case apartment
     case house
     case townHouse
     case villa
@@ -131,7 +132,7 @@ enum ListingType: Int, Codable, Identifiable, Hashable {
     
     var description: String {
         switch self {
-        case .appartment:
+        case .apartment:
             return "Appartment"
         case .house:
             return "House"
