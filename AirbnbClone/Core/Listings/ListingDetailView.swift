@@ -60,7 +60,8 @@ struct ListingDetailView: View {
             
             Divider()
             
-            PlaceOnMapView()
+            PlaceOnMapView(latitude: listing.latitude,
+                           longitude: listing.longitude)
                 .padding()
 
         }
@@ -68,7 +69,7 @@ struct ListingDetailView: View {
         .ignoresSafeArea()
         .padding(.bottom, 72)
         .overlay(alignment: .bottom, content: {
-            ReservationView()
+            ReservationView(pricePerNight: listing.pricePerNight)
         })
     }
 }

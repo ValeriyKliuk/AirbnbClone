@@ -13,12 +13,12 @@ struct RatingView: View {
     var body: some View {
         HStack(spacing: 2, content: {
             Image(systemName: "star.fill")
-            Text("\(rating)")
+            Text(String(format: "%.02f", rating))
         })
         .foregroundStyle(.black)
     }
 }
 
 #Preview {
-    RatingView(rating: 4.56)
+    RatingView(rating: 4.567890123)
 }
