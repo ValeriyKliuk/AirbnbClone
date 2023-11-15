@@ -8,22 +8,23 @@
 import SwiftUI
 
 struct HostView: View {
+    let listing: Listing
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text("Miami Villa")
+            Text(listing.title)
                 .font(.title)
                 .fontWeight(.semibold)
             
             HStack {
                 VStack(alignment: .leading) {
                     HStack {
-                        RatingView()
+                        RatingView(rating: listing.rate)
                         Text(" - ")
                         Text("28 reviews")
                             .underline()
                             .fontWeight(.semibold)
                     }
-                    Text("Miami, Florida")
+                    Text("\(listing.city), \(listing.state)")
                     
                 }
                 .font(.caption)
@@ -35,5 +36,5 @@ struct HostView: View {
 }
 
 #Preview {
-    HostView()
+    HostView(listing: DeveloperPreview.shared.listings[0])
 }

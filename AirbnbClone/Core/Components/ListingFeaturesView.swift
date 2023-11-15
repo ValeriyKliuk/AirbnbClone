@@ -8,17 +8,19 @@
 import SwiftUI
 
 struct ListingFeaturesView: View {
+    let features: [ListingFeatures]
+
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            ForEach(0 ..< 2) { feature in
+            ForEach(features) { feature in
                 HStack(spacing: 12) {
-                    Image(systemName: "medal")
+                    Image(systemName: feature.imageName)
                     VStack(alignment: .leading) {
-                        Text("Superhost")
+                        Text(feature.title)
                             .font(.footnote)
                             .fontWeight(.semibold)
                         
-                        Text("Superhosts are experience, highly rated hosts who are commited to providing great stars for guests")
+                        Text(feature.subtitle)
                             .font(.caption)
                             .foregroundStyle(.gray)
                     }
@@ -31,5 +33,5 @@ struct ListingFeaturesView: View {
 }
 
 #Preview {
-    ListingFeaturesView()
+    ListingFeaturesView(features: DeveloperPreview.shared.listings[0].features)
 }

@@ -8,16 +8,18 @@
 import SwiftUI
 
 struct ListingAmenitiesView: View {
+    let amenities: [ListingAmenities]
+
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
             Text("What this place offers")
                 .font(.headline)
             
-            ForEach(0 ..< 5) { feature in
+            ForEach(amenities) { amenity in
                 HStack(spacing: 8, content: {
-                    Image(systemName: "wifi")
+                    Image(systemName: amenity.imageName)
                         .frame(width: 32)
-                    Text("WiFi")
+                    Text(amenity.title)
                     
                     Spacer()
                 })
@@ -27,5 +29,5 @@ struct ListingAmenitiesView: View {
 }
 
 #Preview {
-    ListingAmenitiesView()
+    ListingAmenitiesView(amenities: DeveloperPreview.shared.listings[0].amenities)
 }

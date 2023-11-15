@@ -13,6 +13,9 @@ class ExploreViewModel: ObservableObject {
     
     init(service: ExploreService) {
         self.service = service
+        Task {
+            await fetchListings()
+        }
     }
     
     func fetchListings() async {

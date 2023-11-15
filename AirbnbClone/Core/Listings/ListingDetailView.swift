@@ -8,13 +8,14 @@
 import SwiftUI
 
 struct ListingDetailView: View {
+    let listing: Listing
     
     @Environment(\.dismiss) var dismiss
 
     var body: some View {
         ScrollView {
             ZStack(alignment: .topLeading) {
-                ListingImageCarouselView()
+                ListingImageCarouselView(listing: listing)
                     .frame(height: 320.0)
                 
                 Button {
@@ -34,27 +35,27 @@ struct ListingDetailView: View {
 
             }
             
-            HostView()
+            HostView(listing: listing)
                 .padding(.leading)
             
             Divider()
             
-            HostInfoView()
+            HostInfoView(listing: listing)
                 .padding()
             
             Divider()
             
-            ListingFeaturesView()
+            ListingFeaturesView(features: listing.features)
                 .padding()
             
             Divider()
             
-            BedroomsView()
+            BedroomsView(numberOfBedrooms: listing.numberOfBedrooms)
                 .padding()
             
             Divider()
             
-             ListingAmenitiesView()
+            ListingAmenitiesView(amenities: listing.amenities)
                  .padding()
             
             Divider()
@@ -73,5 +74,5 @@ struct ListingDetailView: View {
 }
 
 #Preview {
-    ListingDetailView()
+    ListingDetailView(listing: DeveloperPreview.shared.listings[0])
 }

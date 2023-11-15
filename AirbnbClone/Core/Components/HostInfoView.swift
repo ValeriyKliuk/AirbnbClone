@@ -8,18 +8,19 @@
 import SwiftUI
 
 struct HostInfoView: View {
+    let listing: Listing
     var body: some View {
         HStack {
             VStack(alignment: .leading, spacing: 4) {
-                Text("Entire villa hosted by John Smith")
+                Text("Entire \(listing.type.description) hosted by \(listing.ownerName)")
                     .font(.headline)
                     .frame(width: 250, alignment: .leading)
                 
                 HStack(spacing: 2) {
-                    Text("4 guests -")
-                    Text("4 bedrooms -")
-                    Text("4 beds -")
-                    Text("3 baths")
+                    Text("\(listing.numberOfGuests) guests -")
+                    Text("\(listing.numberOfBedrooms) bedrooms -")
+                    Text("\(listing.numberOfBeds) beds -")
+                    Text("\(listing.numberOfBathrooms) baths")
                 }
                 .font(.caption)
             }
@@ -27,7 +28,7 @@ struct HostInfoView: View {
             
             Spacer()
             
-            Image("male-profile-photo")
+            Image(listing.ownerImageUrl)
                 .resizable()
                 .scaledToFill()
                 .frame(width: 64, height: 64)
@@ -37,5 +38,5 @@ struct HostInfoView: View {
 }
 
 #Preview {
-    HostInfoView()
+    HostInfoView(listing: DeveloperPreview.shared.listings[3])
 }
