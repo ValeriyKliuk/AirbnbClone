@@ -1,6 +1,4 @@
 # SwiftUI Airbnb Clone (not really 😉)
 
 ## Media
-
-https://github.com/ValeriyKliuk/AirbnbClone/assets/750868/ae33d189-dfb8-4915-906a-7f971ff454f9
-
+https://github.com/ValeriyKliuk/AirbnbClone/assets/750868/9c6457be-7244-45cf-8dfa-cd20ba738834
