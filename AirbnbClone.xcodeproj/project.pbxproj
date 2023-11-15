@@ -111,7 +111,6 @@
 				1A3532A12AFF08FD00E97296 /* Model */,
 				1A3532A72AFF095200E97296 /* Utils */,
 				1A3532972AFF08C300E97296 /* Assets.xcassets */,
-				1A3532952AFF08BD00E97296 /* ContentView.swift */,
 				1A3532992AFF08C300E97296 /* Preview Content */,
 			);
 			path = AirbnbClone;
@@ -219,6 +218,7 @@
 		1A6BB0142AFF0C0600230826 /* Root */ = {
 			isa = PBXGroup;
 			children = (
+				1A3532952AFF08BD00E97296 /* ContentView.swift */,
 			);
 			path = Root;
 			sourceTree = "<group>";
